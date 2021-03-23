@@ -6,13 +6,7 @@ import HomeScreen from 'screens/HomeScreen'
 import ProductScreen from 'screens/ProductScreen'
 import CartScreen from 'screens/CartScreen'
 import { ThemeProvider } from 'styled-components'
-
-const theme = {
-  colors: {
-    primary: '#8c8c8c',
-    primaryHover: '#969696',
-  },
-}
+import { theme } from './styles/theme'
 
 function App() {
   return (

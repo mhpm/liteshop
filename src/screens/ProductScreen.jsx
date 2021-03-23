@@ -5,20 +5,7 @@ import { AddToCart } from 'redux/actions/cartActions'
 import { Link } from 'react-router-dom'
 import Rating from 'components/Rating'
 import Card from 'components/common/Card'
-import styled from 'styled-components'
-
-const Button = styled.button`
-  background-color: ${(props) => props.theme.colors.primary};
-  color: white !important;
-
-  &:hover {
-    background-color: ${(props) => props.theme.colors.primaryHover};
-  }
-
-  &:focus {
-    box-shadow: none;
-  }
-`
+import { Button } from '../components'
 
 const ProductScreen = ({ match }) => {
   const dispatch = useDispatch()
